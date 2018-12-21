@@ -1,0 +1,6 @@
+- hosts: Jenkins_server
+  tasks:
+  - name: install Jenkins
+    package:
+        name: jenkins
+        state: present
